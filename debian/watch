@@ -1,0 +1,11 @@
+# Rename this file to "watch" and then you can run the "uscan" command
+# to check for upstream updates and more.
+# See uscan(1) for format
+
+# Compulsory line, this is a version 4 file
+version=4
+
+# GitHub hosted projects
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%$1.tar.gz%" \
+   https://github.com/Baltix/gnome-shell-extensions-enhancements/tags \
+   (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate

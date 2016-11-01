@@ -1,0 +1,2 @@
+[org.gnome.shell]
+enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com','drive-menu@gnome-shell-extensions.gcampax.github.com','TaskBar@zpydr','TopIcons@phocean.net']

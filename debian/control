@@ -1,0 +1,26 @@
+Source: gnome-shell-extensions-enhancements
+Section: gnome
+Priority: extra
+Maintainer: Mantas Kriaučiūnas <mantas@baltix.lv>
+Build-Depends: debhelper (>=8)
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/Baltix/gnome-shell-extensions-enhancements
+Homepage: https://launchpad.net/baltix
+
+Package: gnome-shell-extensions-enhancements
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gnome-shell (>= 3.4), gnome-shell-extension-taskbar, gnome-shell-extension-weather, gnome-shell-extensions
+Recommends: gnome-shell-extension-top-icons-plus, gnome-shell-extension-suspend-button, gnome-shell-extensions-gpaste
+Suggests: gnome-shell-extension-move-clock, gnome-shell-extension-dashtodock, gnome-shell-extension-refreshwifi
+Description: Most useful extensions for Gnome Shell (metapackage)
+ This package depends/recommends most useful extensions for Gnome Shell and 
+ enables some extensions by default (after lots usability tests in 
+ educational and enterprise desktops).
+ - Depends on gnome-shell-extension-taskbar, gnome-shell-extension-top-icons-plus,
+  gnome-shell-extension-weather, gnome-shell-extensions.
+ - Recommends gnome-shell-extension-suspend-button, gnome-shell-extensions-gpaste
+ - Suggests gnome-shell-extension-move-clock, gnome-shell-extension-dashtodock,
+   gnome-shell-extension-refreshwifi.
+ Baltix GNU/Linux GNOME desktop uses these extensions by default, other 
+ Debian/Ubuntu based operating systems users also can improve user experience 
+ by installing this metapackage.
