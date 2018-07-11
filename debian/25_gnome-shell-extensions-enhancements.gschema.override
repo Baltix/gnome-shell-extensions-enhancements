@@ -1,2 +1,9 @@
 [org.gnome.shell]
-enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com','drive-menu@gnome-shell-extensions.gcampax.github.com','TopIcons@phocean.net','ubuntu-appindicators@ubuntu.com']
+enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com','drive-menu@gnome-shell-extensions.gcampax.github.com','TopIcons@phocean.net','ubuntu-appindicators@ubuntu.com','notifications-alert-on-user-menu@hackedbellini.gmail.com','dash-to-dock@micxgx.gmail.com']
+
+[org.gnome.shell.extensions.dash-to-dock]
+click-action='previews'
+custom-theme-shrink=true
+custom-theme-running-dots=true
+extend-height=true
+dock-fixed=true
