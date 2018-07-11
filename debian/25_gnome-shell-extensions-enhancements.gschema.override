@@ -7,3 +7,6 @@ custom-theme-shrink=true
 custom-theme-running-dots=true
 extend-height=true
 dock-fixed=true
+
+[org.gnome.shell.extensions.topicons]
+tray-pos='right'
