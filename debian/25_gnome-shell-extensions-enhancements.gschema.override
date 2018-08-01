@@ -10,3 +10,7 @@ dock-fixed=true
 
 [org.gnome.shell.extensions.topicons]
 tray-pos='right'
+
+[org.gnome.shell.extensions.notifications-alert]
+filter=1
+application-list=['firefox.desktop']
